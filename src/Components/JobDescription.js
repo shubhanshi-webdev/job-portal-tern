@@ -18,8 +18,8 @@ const JobDescription = () => {
             setDesc( newData);
             dispatch(addJDData(data))
         }
-        return 
-    })},[JD]); // issue while deloyment
+        return  data
+    })},[JD,dispatch,id]); // issue while deloyment
     const openApplyForm =() => {
         setApplyComponent(true);
     }
