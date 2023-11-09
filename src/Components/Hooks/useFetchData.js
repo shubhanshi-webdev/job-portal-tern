@@ -11,7 +11,7 @@ const useFetchData = () => {
             dispatch(showListOnSearch(response.data))
         }
         fetchApi();
-    },[]);
+    },[dispatch]);
 }
 
 export default useFetchData

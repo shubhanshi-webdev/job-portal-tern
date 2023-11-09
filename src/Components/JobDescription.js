@@ -17,7 +17,9 @@ const JobDescription = () => {
                 const newData = data.description.replace(regex, "");
             setDesc( newData);
             dispatch(addJDData(data))
-        }})},[JD]); // issue while deloyment
+        }
+        return
+    })},[JD]); // issue while deloyment
     const openApplyForm =() => {
         setApplyComponent(true);
     }
