@@ -18,7 +18,7 @@ const JobDescription = () => {
             setDesc( newData);
             dispatch(addJDData(data))
         }
-        return
+        return 
     })},[JD]); // issue while deloyment
     const openApplyForm =() => {
         setApplyComponent(true);
