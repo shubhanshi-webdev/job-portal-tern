@@ -105,3 +105,16 @@ a {
 .listing {
     width: 900px;
 }
+.searchMore{
+    background: unset;
+    border: unset;
+    font-size: 18px;
+    color: red;
+    cursor: pointer;
+    text-decoration: underline;
+}
+.sorryTxt{
+  background-color: #d8bfd8;
+  text-align: center;
+  padding: 20px;
+}
