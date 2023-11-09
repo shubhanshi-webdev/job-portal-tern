@@ -11,7 +11,7 @@ const ApplyNow = () => {
     const [coverLetter, setcoverLetter] = useState('');
     const handleSubmit = (e) => {
       e.preventDefault();
-         dispatch(addFormData({name,email,coverLetter,file}));
+         dispatch(addFormData({name,email,coverLetter}));
          navigate('/thankyou');
       }
   return (
